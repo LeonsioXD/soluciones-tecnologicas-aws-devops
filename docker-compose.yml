@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  web-app:
+    build: .
+    ports:
+      - "80:5000"
+    networks:
+      - red-devops
+    volumes:
+      - ./logs:/app/logs
+    restart: always
+
+networks:
+  red-devops:
+    driver: bridge
