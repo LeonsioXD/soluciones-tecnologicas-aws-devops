@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Despliegue de servidor y almacenamiento para Soluciones Tecnológicas del Futuro.
+
+Resources:
+  ServidorWebDevOps:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c7217cdde317cfec # Ubuntu 22.04 en us-east-1
+      Tags:
+        - Key: Name
+          Value: Servidor-Automatizado-Leon
+
+  BucketDatosFinancieros:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "datos-financieros-leon-${AWS::AccountId}"
+      AccessControl: Private
