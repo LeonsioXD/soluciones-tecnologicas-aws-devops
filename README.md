@@ -22,6 +22,7 @@ El proyecto se basa en los pilares fundamentales de DevOps:
 * `docker-compose.yml`: Orquestación de servicios, redes personalizadas y volúmenes.
 * `aws_report.py`: Script para la auditoría de recursos en la cuenta de AWS.
 * `cleanup.sh`: Automatización de limpieza de logs para mantenimiento preventivo.
+* `install_deps.sh`: Automatización de la configuración inicial del entorno (Git, Docker, Python).
 
 ## Instrucciones de Despliegue
 1.  **Infraestructura:** Cargar `infraestructura.yaml` en AWS CloudFormation.
