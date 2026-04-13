@@ -1,0 +1,157 @@
+Attaching to ubuntu_web-app_1
+web-app_1  | /root/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+web-app_1  |   warnings.warn(warning, PythonDeprecationWarning)
+web-app_1  | --- [Reporte de Recursos AWS] ---
+web-app_1  | 
+web-app_1  | 1. Buckets y Objetos en S3:
+web-app_1  | Bucket: act1-devops-bucket
+web-app_1  |   - Objeto: index.html
+web-app_1  |   - Objeto: styles.css
+web-app_1  | Bucket: act1-tcmln-bucket
+web-app_1  |   - (Bucket vacío)
+web-app_1  | Bucket: act2-devops-bucket
+web-app_1  |   - Objeto: backup_2026-03-30.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1902.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1950.tar.gz
+web-app_1  | Bucket: cf-templates-1uel1f0jksxtg-us-east-1
+web-app_1  |   - Objeto: 2026-04-05T222028.310Zb0l-infraestructura.yaml.txt
+web-app_1  |   - Objeto: 2026-04-05T222146.549Zjku-infraestructura.yaml
+web-app_1  |   - Objeto: 2026-04-05T222409.551Zfpe-infraestructura.yaml
+web-app_1  | Bucket: datos-financieros-leon-471112622519
+web-app_1  |   - (Bucket vacío)
+web-app_1  | 
+web-app_1  | 2. Instancias EC2 activas:
+web-app_1  | - ID: i-0a67014ed2c4b458b | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-065ac3599ec8bbd15 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-0b032d33a8d0f0b93 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-07e7ca4af0dd3eb2b | Tipo: t3.micro | Estado: running
+web-app_1  | /root/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+web-app_1  |   warnings.warn(warning, PythonDeprecationWarning)
+web-app_1  | --- [Reporte de Recursos AWS] ---
+web-app_1  | 
+web-app_1  | 1. Buckets y Objetos en S3:
+web-app_1  | Bucket: act1-devops-bucket
+web-app_1  |   - Objeto: index.html
+web-app_1  |   - Objeto: styles.css
+web-app_1  | Bucket: act1-tcmln-bucket
+web-app_1  |   - (Bucket vacío)
+web-app_1  | Bucket: act2-devops-bucket
+web-app_1  |   - Objeto: backup_2026-03-30.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1902.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1950.tar.gz
+web-app_1  | Bucket: cf-templates-1uel1f0jksxtg-us-east-1
+web-app_1  |   - Objeto: 2026-04-05T222028.310Zb0l-infraestructura.yaml.txt
+web-app_1  |   - Objeto: 2026-04-05T222146.549Zjku-infraestructura.yaml
+web-app_1  |   - Objeto: 2026-04-05T222409.551Zfpe-infraestructura.yaml
+web-app_1  | Bucket: datos-financieros-leon-471112622519
+web-app_1  |   - (Bucket vacío)
+web-app_1  | 
+web-app_1  | 2. Instancias EC2 activas:
+web-app_1  | - ID: i-0a67014ed2c4b458b | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-065ac3599ec8bbd15 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-0b032d33a8d0f0b93 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-07e7ca4af0dd3eb2b | Tipo: t3.micro | Estado: running
+web-app_1  | /root/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+web-app_1  |   warnings.warn(warning, PythonDeprecationWarning)
+web-app_1  | --- [Reporte de Recursos AWS] ---
+web-app_1  | 
+web-app_1  | 1. Buckets y Objetos en S3:
+web-app_1  | Bucket: act1-devops-bucket
+web-app_1  |   - Objeto: index.html
+web-app_1  |   - Objeto: styles.css
+web-app_1  | Bucket: act1-tcmln-bucket
+web-app_1  |   - (Bucket vacío)
+web-app_1  | Bucket: act2-devops-bucket
+web-app_1  |   - Objeto: backup_2026-03-30.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1902.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1950.tar.gz
+web-app_1  | Bucket: cf-templates-1uel1f0jksxtg-us-east-1
+web-app_1  |   - Objeto: 2026-04-05T222028.310Zb0l-infraestructura.yaml.txt
+web-app_1  |   - Objeto: 2026-04-05T222146.549Zjku-infraestructura.yaml
+web-app_1  |   - Objeto: 2026-04-05T222409.551Zfpe-infraestructura.yaml
+web-app_1  | Bucket: datos-financieros-leon-471112622519
+web-app_1  |   - (Bucket vacío)
+web-app_1  | 
+web-app_1  | 2. Instancias EC2 activas:
+web-app_1  | - ID: i-0a67014ed2c4b458b | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-065ac3599ec8bbd15 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-0b032d33a8d0f0b93 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-07e7ca4af0dd3eb2b | Tipo: t3.micro | Estado: running
+web-app_1  | /root/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+web-app_1  |   warnings.warn(warning, PythonDeprecationWarning)
+web-app_1  | --- [Reporte de Recursos AWS] ---
+web-app_1  | 
+web-app_1  | 1. Buckets y Objetos en S3:
+web-app_1  | Bucket: act1-devops-bucket
+web-app_1  |   - Objeto: index.html
+web-app_1  |   - Objeto: styles.css
+web-app_1  | Bucket: act1-tcmln-bucket
+web-app_1  |   - (Bucket vacío)
+web-app_1  | Bucket: act2-devops-bucket
+web-app_1  |   - Objeto: backup_2026-03-30.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1902.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1950.tar.gz
+web-app_1  | Bucket: cf-templates-1uel1f0jksxtg-us-east-1
+web-app_1  |   - Objeto: 2026-04-05T222028.310Zb0l-infraestructura.yaml.txt
+web-app_1  |   - Objeto: 2026-04-05T222146.549Zjku-infraestructura.yaml
+web-app_1  |   - Objeto: 2026-04-05T222409.551Zfpe-infraestructura.yaml
+web-app_1  | Bucket: datos-financieros-leon-471112622519
+web-app_1  |   - (Bucket vacío)
+web-app_1  | 
+web-app_1  | 2. Instancias EC2 activas:
+web-app_1  | - ID: i-0a67014ed2c4b458b | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-065ac3599ec8bbd15 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-0b032d33a8d0f0b93 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-07e7ca4af0dd3eb2b | Tipo: t3.micro | Estado: running
+web-app_1  | /root/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+web-app_1  |   warnings.warn(warning, PythonDeprecationWarning)
+web-app_1  | --- [Reporte de Recursos AWS] ---
+web-app_1  | 
+web-app_1  | 1. Buckets y Objetos en S3:
+web-app_1  | Bucket: act1-devops-bucket
+web-app_1  |   - Objeto: index.html
+web-app_1  |   - Objeto: styles.css
+web-app_1  | Bucket: act1-tcmln-bucket
+web-app_1  |   - (Bucket vacío)
+web-app_1  | Bucket: act2-devops-bucket
+web-app_1  |   - Objeto: backup_2026-03-30.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1902.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1950.tar.gz
+web-app_1  | Bucket: cf-templates-1uel1f0jksxtg-us-east-1
+web-app_1  |   - Objeto: 2026-04-05T222028.310Zb0l-infraestructura.yaml.txt
+web-app_1  |   - Objeto: 2026-04-05T222146.549Zjku-infraestructura.yaml
+web-app_1  |   - Objeto: 2026-04-05T222409.551Zfpe-infraestructura.yaml
+web-app_1  | Bucket: datos-financieros-leon-471112622519
+web-app_1  |   - (Bucket vacío)
+web-app_1  | 
+web-app_1  | 2. Instancias EC2 activas:
+web-app_1  | - ID: i-0a67014ed2c4b458b | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-065ac3599ec8bbd15 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-0b032d33a8d0f0b93 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-07e7ca4af0dd3eb2b | Tipo: t3.micro | Estado: running
+web-app_1  | /root/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+web-app_1  |   warnings.warn(warning, PythonDeprecationWarning)
+web-app_1  | --- [Reporte de Recursos AWS] ---
+web-app_1  | 
+web-app_1  | 1. Buckets y Objetos en S3:
+web-app_1  | Bucket: act1-devops-bucket
+web-app_1  |   - Objeto: index.html
+web-app_1  |   - Objeto: styles.css
+web-app_1  | Bucket: act1-tcmln-bucket
+web-app_1  |   - (Bucket vacío)
+web-app_1  | Bucket: act2-devops-bucket
+web-app_1  |   - Objeto: backup_2026-03-30.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1902.tar.gz
+web-app_1  |   - Objeto: backup_2026-04-11_1950.tar.gz
+web-app_1  | Bucket: cf-templates-1uel1f0jksxtg-us-east-1
+web-app_1  |   - Objeto: 2026-04-05T222028.310Zb0l-infraestructura.yaml.txt
+web-app_1  |   - Objeto: 2026-04-05T222146.549Zjku-infraestructura.yaml
+web-app_1  |   - Objeto: 2026-04-05T222409.551Zfpe-infraestructura.yaml
+web-app_1  | Bucket: datos-financieros-leon-471112622519
+web-app_1  |   - (Bucket vacío)
+web-app_1  | 
+web-app_1  | 2. Instancias EC2 activas:
+web-app_1  | - ID: i-0a67014ed2c4b458b | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-065ac3599ec8bbd15 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-0b032d33a8d0f0b93 | Tipo: t2.micro | Estado: running
+web-app_1  | - ID: i-07e7ca4af0dd3eb2b | Tipo: t3.micro | Estado: running
