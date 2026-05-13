@@ -1,0 +1,12 @@
+=== REPORTE AUTOMÁTICO DE RECURSOS AWS ===
+Fecha: 2026-04-09 15:09:51
+
+--- INSTANCIAS EC2 (3) ---
+ID: i-04eaad65ae9af98dd | Tipo: t3.micro | Estado: running
+ID: i-067d35d3ae1150ee7 | Tipo: t2.micro | Estado: running
+ID: i-03cded4cabcd0323d | Tipo: t2.micro | Estado: running
+
+--- BUCKETS S3 (3) ---
+Bucket: backup-estudiante-id123
+Bucket: bucketdevopsact2
+Bucket: proyecto-devops-avance-767398131772
